@@ -6,19 +6,20 @@ Program receives input over USB serial port to control the blue user LED. LED ma
 
 ### Hardware Used
 
-ESP32-WROOM-32D module
-micro-USB cable
+* ESP32-WROOM-32D module
+* micro-USB cable
 
 ### Software
 
-Espressif IDE for Windows v2.4.2
-ESP-IDE v4.4.1
-python v3.7.4
-pySerial v3.5
+* Espressif IDE for Windows v2.4.2
+* ESP-IDE v4.4.1
+* python v3.7.4
+* pySerial v3.5
 
 ## Quick setup
 
 Open project in Espressif IDE and select Build.
+
 Connect ESP32 to USB port. Select Run to download program to the ESP32.
 
 The ESP32 is now ready to receive commands over the USB serial port. Supported commands are:
